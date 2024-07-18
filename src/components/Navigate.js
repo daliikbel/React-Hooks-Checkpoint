@@ -6,11 +6,11 @@ const Navigate = () => {
   return (
     <Navbar bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home">Film</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="#home">Horreur</Nav.Link>
+          <Nav.Link href="#features">Action</Nav.Link>
+          <Nav.Link href="#pricing">Science-fiction</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

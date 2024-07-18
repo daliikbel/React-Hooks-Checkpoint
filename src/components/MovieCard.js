@@ -6,7 +6,7 @@ import StarRatingComponent from "react-star-rating-component";
 const MovieCard = ({ movie }) => {
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={movie.posterUrl} height="300px" />
+      <Card.Img variant="top" src={movie.posterUrl} height="100px" />
       <Card.Body>
         <Card.Title>{movie.title}</Card.Title>
         <Card.Text style={{"height":"170px"}}>{movie.Description}</Card.Text>
