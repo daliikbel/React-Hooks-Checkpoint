@@ -9,7 +9,7 @@ const MovieCard = ({ movie }) => {
       <Card.Img variant="top" src={movie.posterUrl} height="300px" />
       <Card.Body>
         <Card.Title>{movie.title}</Card.Title>
-        <Card.Text style={{"height":"150px"}}>{movie.description}</Card.Text>
+        <Card.Text style={{"height":"170px"}}>{movie.Description}</Card.Text>
 
         <div className="text-center display-6 ">
           <StarRatingComponent
