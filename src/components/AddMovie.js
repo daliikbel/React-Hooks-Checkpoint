@@ -10,7 +10,8 @@ const AddMovie = ({addNewMovie}) => {
     title : "",
     description :""  ,
     posterUrl : "",
-    rating : 1
+    rating : 1 ,
+    Trailer :""
   })
   
   const handleClose = () => setShow(false);
@@ -61,6 +62,11 @@ const AddMovie = ({addNewMovie}) => {
                     <label> Rating </label>
                     <input type="number" min={0} name="rating" onChange={handleChange}/>
                 </div>
+                <div className="d-flex flex-column">
+                    <label> Trailer </label>
+                    <input type="text" name="Trailer" onChange={handleChange}/>
+                </div>
+
             </div>
         
         
